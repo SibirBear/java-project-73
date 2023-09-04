@@ -16,9 +16,9 @@ jobs:
           java-version: '20'
           distribution: 'temurin'
       - name: Build with Gradle
-        uses: gradle/gradle-build-action@v2
+        uses: gradle/gradle-build-action@v2.8.0
         with:
-          arguments: build
+          gradle-version: 8.2
       - name: Publish code coverage
         uses: paambaati/codeclimate-action@v3.0.0
         env:
