@@ -5,7 +5,7 @@ build:
 	./gradlew clean build
 
 install:
-    ./gradlew installDist
+	./gradlew installDist
 
 lint:
 	./gradlew checkstyleMain checkstyleTest
@@ -17,4 +17,4 @@ report:
 	./gradlew jacocoTestReport
 
 check-updates:
-    ./gradlew dependencyUpdates
+	./gradlew dependencyUpdates

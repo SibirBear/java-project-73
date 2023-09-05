@@ -39,6 +39,7 @@ jacocoTestReport {
 	reports {
 		xml.required = true
 	}
+	dependsOn test
 }
 
 tasks.named('test') {
