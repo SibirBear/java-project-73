@@ -9,6 +9,6 @@ RUN gradle installDist
 USER root
 RUN chmod 755 ./build/libs/app-1.0-SNAPSHOT-plain.jar
 
-EXPOSE 8080
+EXPOSE 8090
 
 CMD build/install/app/bin/app

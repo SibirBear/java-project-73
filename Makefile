@@ -18,3 +18,6 @@ report:
 
 check-updates:
 	./gradlew dependencyUpdates
+
+generate-migrations:
+	./gradlew diffChangeLog
